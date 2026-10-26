@@ -1,0 +1,8 @@
+Source: https://adguard.com/kb/adguard-for-ios/web-extension/
+Original image: https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/settings2_en.png
+Authentic iOS Safari Settings example from official AdGuard documentation. Original annotation retained; image unmodified. Older iOS interface; current navigation may vary.
+
+Additional official tutorial screenshots:
+https://cdn.adtidy.org/content/kb/ad_blocker/iOS/apps.jpg
+https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/settings1_en.png
+The source tutorial uses screenshots from different iOS versions; originals are preserved.

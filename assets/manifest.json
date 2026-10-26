@@ -1,0 +1,812 @@
+{
+  "home-hero.png": {
+    "source": "首页单屏-1170x2532.png",
+    "source_pixels": [
+      0,
+      0,
+      1170,
+      1188
+    ],
+    "reference_box": [
+      0,
+      0,
+      853,
+      865
+    ]
+  },
+  "check-hero.png": {
+    "source": "Check-1170x2532.png",
+    "source_pixels": [
+      0,
+      0,
+      1170,
+      755
+    ],
+    "reference_box": [
+      0,
+      0,
+      853,
+      550
+    ]
+  },
+  "vault-hero.png": {
+    "source": "Vault-1170x2532.png",
+    "source_pixels": [
+      0,
+      0,
+      1170,
+      735
+    ],
+    "reference_box": [
+      0,
+      0,
+      853,
+      535
+    ]
+  },
+  "you-hero.png": {
+    "source": "You-1170x2532.png",
+    "source_pixels": [
+      0,
+      0,
+      1170,
+      735
+    ],
+    "reference_box": [
+      0,
+      0,
+      853,
+      535
+    ]
+  },
+  "home-data.png": {
+    "source": "首页单屏-1170x2532.png",
+    "source_pixels": [
+      88,
+      1443,
+      213,
+      1600
+    ],
+    "reference_box": [
+      64,
+      1051,
+      155,
+      1165
+    ]
+  },
+  "home-browse.png": {
+    "source": "首页单屏-1170x2532.png",
+    "source_pixels": [
+      639,
+      1442,
+      771,
+      1593
+    ],
+    "reference_box": [
+      466,
+      1050,
+      562,
+      1160
+    ]
+  },
+  "home-message.png": {
+    "source": "首页单屏-1170x2532.png",
+    "source_pixels": [
+      82,
+      1708,
+      225,
+      1867
+    ],
+    "reference_box": [
+      60,
+      1244,
+      164,
+      1360
+    ]
+  },
+  "home-image.png": {
+    "source": "首页单屏-1170x2532.png",
+    "source_pixels": [
+      638,
+      1708,
+      775,
+      1867
+    ],
+    "reference_box": [
+      465,
+      1244,
+      565,
+      1360
+    ]
+  },
+  "home-lock.png": {
+    "source": "首页单屏-1170x2532.png",
+    "source_pixels": [
+      86,
+      1986,
+      228,
+      2130
+    ],
+    "reference_box": [
+      63,
+      1446,
+      166,
+      1551
+    ]
+  },
+  "home-arrow.png": {
+    "source": "首页单屏-1170x2532.png",
+    "source_pixels": [
+      1051,
+      2032,
+      1081,
+      2088
+    ],
+    "reference_box": [
+      766,
+      1480,
+      788,
+      1521
+    ]
+  },
+  "home-nav-0.png": {
+    "source": "首页单屏-1170x2532.png",
+    "source_pixels": [
+      129,
+      2277,
+      213,
+      2369
+    ],
+    "reference_box": [
+      94,
+      1658,
+      155,
+      1725
+    ]
+  },
+  "home-nav-1.png": {
+    "source": "首页单屏-1170x2532.png",
+    "source_pixels": [
+      403,
+      2277,
+      501,
+      2373
+    ],
+    "reference_box": [
+      294,
+      1658,
+      365,
+      1728
+    ]
+  },
+  "home-nav-2.png": {
+    "source": "首页单屏-1170x2532.png",
+    "source_pixels": [
+      678,
+      2277,
+      764,
+      2369
+    ],
+    "reference_box": [
+      494,
+      1658,
+      557,
+      1725
+    ]
+  },
+  "home-nav-3.png": {
+    "source": "首页单屏-1170x2532.png",
+    "source_pixels": [
+      957,
+      2277,
+      1047,
+      2375
+    ],
+    "reference_box": [
+      698,
+      1658,
+      763,
+      1730
+    ]
+  },
+  "check-nav-0.png": {
+    "source": "Check-1170x2532.png",
+    "source_pixels": [
+      114,
+      2323,
+      193,
+      2408
+    ],
+    "reference_box": [
+      83,
+      1692,
+      141,
+      1754
+    ]
+  },
+  "check-nav-1.png": {
+    "source": "Check-1170x2532.png",
+    "source_pixels": [
+      401,
+      2321,
+      492,
+      2408
+    ],
+    "reference_box": [
+      292,
+      1690,
+      359,
+      1754
+    ]
+  },
+  "check-nav-2.png": {
+    "source": "Check-1170x2532.png",
+    "source_pixels": [
+      682,
+      2323,
+      767,
+      2408
+    ],
+    "reference_box": [
+      497,
+      1692,
+      559,
+      1754
+    ]
+  },
+  "check-nav-3.png": {
+    "source": "Check-1170x2532.png",
+    "source_pixels": [
+      964,
+      2321,
+      1053,
+      2410
+    ],
+    "reference_box": [
+      703,
+      1690,
+      768,
+      1755
+    ]
+  },
+  "vault-nav-0.png": {
+    "source": "Vault-1170x2532.png",
+    "source_pixels": [
+      112,
+      2308,
+      192,
+      2396
+    ],
+    "reference_box": [
+      82,
+      1681,
+      140,
+      1745
+    ]
+  },
+  "vault-nav-1.png": {
+    "source": "Vault-1170x2532.png",
+    "source_pixels": [
+      401,
+      2308,
+      494,
+      2399
+    ],
+    "reference_box": [
+      292,
+      1681,
+      360,
+      1747
+    ]
+  },
+  "vault-nav-2.png": {
+    "source": "Vault-1170x2532.png",
+    "source_pixels": [
+      679,
+      2308,
+      765,
+      2396
+    ],
+    "reference_box": [
+      495,
+      1681,
+      558,
+      1745
+    ]
+  },
+  "vault-nav-3.png": {
+    "source": "Vault-1170x2532.png",
+    "source_pixels": [
+      963,
+      2308,
+      1048,
+      2396
+    ],
+    "reference_box": [
+      702,
+      1681,
+      764,
+      1745
+    ]
+  },
+  "you-nav-0.png": {
+    "source": "You-1170x2532.png",
+    "source_pixels": [
+      112,
+      2326,
+      195,
+      2414
+    ],
+    "reference_box": [
+      82,
+      1694,
+      142,
+      1758
+    ]
+  },
+  "you-nav-1.png": {
+    "source": "You-1170x2532.png",
+    "source_pixels": [
+      398,
+      2326,
+      492,
+      2414
+    ],
+    "reference_box": [
+      290,
+      1694,
+      359,
+      1758
+    ]
+  },
+  "you-nav-2.png": {
+    "source": "You-1170x2532.png",
+    "source_pixels": [
+      679,
+      2326,
+      767,
+      2414
+    ],
+    "reference_box": [
+      495,
+      1694,
+      559,
+      1758
+    ]
+  },
+  "you-nav-3.png": {
+    "source": "You-1170x2532.png",
+    "source_pixels": [
+      964,
+      2326,
+      1049,
+      2414
+    ],
+    "reference_box": [
+      703,
+      1694,
+      765,
+      1758
+    ]
+  },
+  "check-message.png": {
+    "source": "Check-1170x2532.png",
+    "source_pixels": [
+      66,
+      746,
+      225,
+      906
+    ],
+    "reference_box": [
+      48,
+      543,
+      164,
+      660
+    ]
+  },
+  "check-message-tab.png": {
+    "source": "Check-1170x2532.png",
+    "source_pixels": [
+      210,
+      957,
+      274,
+      1027
+    ],
+    "reference_box": [
+      153,
+      697,
+      200,
+      748
+    ]
+  },
+  "check-image.png": {
+    "source": "Check-1170x2532.png",
+    "source_pixels": [
+      752,
+      954,
+      824,
+      1027
+    ],
+    "reference_box": [
+      548,
+      695,
+      601,
+      748
+    ]
+  },
+  "check-sender.png": {
+    "source": "Check-1170x2532.png",
+    "source_pixels": [
+      108,
+      1167,
+      176,
+      1247
+    ],
+    "reference_box": [
+      79,
+      850,
+      128,
+      908
+    ]
+  },
+  "check-document.png": {
+    "source": "Check-1170x2532.png",
+    "source_pixels": [
+      107,
+      1402,
+      173,
+      1488
+    ],
+    "reference_box": [
+      78,
+      1021,
+      126,
+      1084
+    ]
+  },
+  "check-history.png": {
+    "source": "Check-1170x2532.png",
+    "source_pixels": [
+      551,
+      2159,
+      621,
+      2224
+    ],
+    "reference_box": [
+      402,
+      1572,
+      453,
+      1620
+    ]
+  },
+  "vault-personal.png": {
+    "source": "Vault-1170x2532.png",
+    "source_pixels": [
+      55,
+      960,
+      573,
+      1363
+    ],
+    "reference_box": [
+      40,
+      699,
+      418,
+      993
+    ]
+  },
+  "vault-travel.png": {
+    "source": "Vault-1170x2532.png",
+    "source_pixels": [
+      597,
+      960,
+      1115,
+      1363
+    ],
+    "reference_box": [
+      435,
+      699,
+      813,
+      993
+    ]
+  },
+  "vault-favorites.png": {
+    "source": "Vault-1170x2532.png",
+    "source_pixels": [
+      55,
+      1460,
+      573,
+      1865
+    ],
+    "reference_box": [
+      40,
+      1063,
+      418,
+      1358
+    ]
+  },
+  "vault-documents.png": {
+    "source": "Vault-1170x2532.png",
+    "source_pixels": [
+      597,
+      1460,
+      1115,
+      1865
+    ],
+    "reference_box": [
+      435,
+      1063,
+      813,
+      1358
+    ]
+  },
+  "vault-lock.png": {
+    "source": "Vault-1170x2532.png",
+    "source_pixels": [
+      96,
+      1987,
+      187,
+      2099
+    ],
+    "reference_box": [
+      70,
+      1447,
+      136,
+      1529
+    ]
+  },
+  "vault-plus.png": {
+    "source": "Vault-1170x2532.png",
+    "source_pixels": [
+      453,
+      2170,
+      516,
+      2235
+    ],
+    "reference_box": [
+      330,
+      1580,
+      376,
+      1628
+    ]
+  },
+  "vault-sort.png": {
+    "source": "Vault-1170x2532.png",
+    "source_pixels": [
+      937,
+      733,
+      985,
+      783
+    ],
+    "reference_box": [
+      683,
+      534,
+      718,
+      570
+    ]
+  },
+  "you-fingerprint.png": {
+    "source": "You-1170x2532.png",
+    "source_pixels": [
+      93,
+      861,
+      207,
+      980
+    ],
+    "reference_box": [
+      68,
+      627,
+      151,
+      714
+    ]
+  },
+  "you-lock.png": {
+    "source": "You-1170x2532.png",
+    "source_pixels": [
+      96,
+      1026,
+      199,
+      1140
+    ],
+    "reference_box": [
+      70,
+      747,
+      145,
+      830
+    ]
+  },
+  "you-eye.png": {
+    "source": "You-1170x2532.png",
+    "source_pixels": [
+      89,
+      1203,
+      208,
+      1289
+    ],
+    "reference_box": [
+      65,
+      876,
+      152,
+      939
+    ]
+  },
+  "you-globe.png": {
+    "source": "You-1170x2532.png",
+    "source_pixels": [
+      91,
+      1517,
+      206,
+      1631
+    ],
+    "reference_box": [
+      66,
+      1105,
+      150,
+      1188
+    ]
+  },
+  "you-data.png": {
+    "source": "You-1170x2532.png",
+    "source_pixels": [
+      102,
+      1683,
+      200,
+      1793
+    ],
+    "reference_box": [
+      74,
+      1226,
+      146,
+      1306
+    ]
+  },
+  "you-clock.png": {
+    "source": "You-1170x2532.png",
+    "source_pixels": [
+      93,
+      2007,
+      206,
+      2116
+    ],
+    "reference_box": [
+      68,
+      1462,
+      150,
+      1541
+    ]
+  },
+  "you-activity.png": {
+    "source": "You-1170x2532.png",
+    "source_pixels": [
+      100,
+      2170,
+      202,
+      2257
+    ],
+    "reference_box": [
+      73,
+      1580,
+      147,
+      1644
+    ]
+  },
+  "browser-header.png": {
+    "source": "Browser-1170x2532.png",
+    "source_pixels": [
+      0,
+      0,
+      1170,
+      498
+    ],
+    "reference_box": [
+      0,
+      0,
+      853,
+      363
+    ]
+  },
+  "browser-search.png": {
+    "source": "Browser-1170x2532.png",
+    "source_pixels": [
+      121,
+      341,
+      199,
+      415
+    ],
+    "reference_box": [
+      88,
+      248,
+      145,
+      302
+    ]
+  },
+  "browser-previous.png": {
+    "source": "Browser-1170x2532.png",
+    "source_pixels": [
+      121,
+      700,
+      150,
+      746
+    ],
+    "reference_box": [
+      88,
+      510,
+      109,
+      543
+    ]
+  },
+  "browser-next.png": {
+    "source": "Browser-1170x2532.png",
+    "source_pixels": [
+      1025,
+      700,
+      1056,
+      746
+    ],
+    "reference_box": [
+      747,
+      510,
+      770,
+      543
+    ]
+  },
+  "browser-nav-0.png": {
+    "source": "Browser-1170x2532.png",
+    "source_pixels": [
+      121,
+      2333,
+      192,
+      2408
+    ],
+    "reference_box": [
+      88,
+      1699,
+      140,
+      1754
+    ]
+  },
+  "browser-nav-1.png": {
+    "source": "Browser-1170x2532.png",
+    "source_pixels": [
+      410,
+      2332,
+      487,
+      2410
+    ],
+    "reference_box": [
+      299,
+      1698,
+      355,
+      1755
+    ]
+  },
+  "browser-nav-2.png": {
+    "source": "Browser-1170x2532.png",
+    "source_pixels": [
+      686,
+      2334,
+      759,
+      2408
+    ],
+    "reference_box": [
+      500,
+      1700,
+      553,
+      1754
+    ]
+  },
+  "browser-nav-3.png": {
+    "source": "Browser-1170x2532.png",
+    "source_pixels": [
+      975,
+      2333,
+      1051,
+      2411
+    ],
+    "reference_box": [
+      711,
+      1699,
+      766,
+      1756
+    ]
+  }
+}

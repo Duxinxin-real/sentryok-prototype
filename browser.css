@@ -1,0 +1,46 @@
+.screen-browser{background:#fff;color:#090b3a}.browser-scroll{position:absolute;inset:0 0 167px;overflow:auto;scrollbar-width:none}.browser-canvas{position:relative;min-height:1678px;background:linear-gradient(120deg,#0cb9ed,#009dff) no-repeat;background-size:100% 430px}.browser-header{position:absolute;inset:0 0 auto;width:853px;height:363px}.browser-settings{position:absolute;left:729px;top:103px;width:88px;height:89px;border-radius:25px}.browser-search{position:absolute;left:48px;top:225px;width:757px;height:98px;background:#fff;border-radius:70px;display:flex;align-items:center;overflow:hidden}.browser-search img{position:absolute;left:41px;width:57px;height:54px;object-fit:contain}.browser-search input{width:100%;height:100%;border:0;background:#fff;color:#11143d;padding:0 30px 0 132px;font-size:34px;letter-spacing:-.8px}.browser-search input::placeholder{color:#9399b5}.browser-main{position:relative;top:363px;padding:39px 37px 7px;border-radius:58px 58px 0 0;background:radial-gradient(ellipse at center,#fff 50%,#f7fcff);min-height:1315px}.browser-main:before{display:none}.browser-main h1{font-size:44px;letter-spacing:-1.4px;margin:0 8px 25px;font-weight:700;line-height:50px}.calendar{border:1.5px solid #daedf9;background:linear-gradient(120deg,#fff,#fff 70%,#fcfeff);border-radius:29px;padding:18px 26px 27px;box-shadow:0 16px 30px #79cafa0c}.month-heading{display:flex;align-items:center;justify-content:space-between;height:64px;margin:0 5px 22px}.month-heading h2{font-size:34px;letter-spacing:-1px;margin:0}.month-heading button{border:0;border-radius:50%;background:#f3f9fc;width:64px;height:64px;display:grid;place-items:center}.month-heading img{width:23px;height:34px;object-fit:contain}.weekdays{display:grid;grid-template-columns:repeat(7,1fr);text-align:center;color:#717b9d;font-size:23px;height:44px;align-items:start}.calendar-days{display:grid;grid-template-columns:repeat(7,1fr);justify-items:center;row-gap:18px}.day{position:relative;width:75px;height:75px;border-radius:50%;border:1.5px solid #ebf4fb;background:#f5faff;color:#7983a4;padding:0;font-size:25px;display:grid;place-items:center}.day.has-activity{border:0;background:conic-gradient(from 0deg,#0094ff var(--arc),#e4f5ff 0);color:#0b103c}.day.risk{background:conic-gradient(#0094ff 95deg,#ff7283 95deg 130deg,#e4f5ff 130deg)}.day span{position:relative;display:grid;place-items:center;width:66px;height:66px;border-radius:50%;background:#fff}.day:not(.has-activity) span{background:transparent}.day.selected{background:linear-gradient(145deg,#00bbf3,#0060ff);border:0;color:white;font-weight:600;box-shadow:0 8px 17px #008aff20}.day.selected span{background:transparent}.day.muted{color:#8b94ae}.calendar-legend{display:flex;align-items:center;justify-content:center;gap:38px;height:72px;font-size:23px}.calendar-legend span{display:flex;align-items:center;gap:12px}.calendar-legend i{width:22px;height:22px;background:linear-gradient(130deg,#00c6ef,#0066ff);border-radius:50%}.calendar-legend span+span i{background:#ff7381}.period-tabs{height:83px;border:1.5px solid #d2e9fa;border-radius:50px;display:flex;background:#f9fcff;padding:2px}.period-tabs button{flex:1;border:0;border-radius:50px;background:transparent;font-size:28px;font-weight:600;color:#0b0e3b}.period-tabs button[aria-selected=true]{background:linear-gradient(150deg,#00c4f5,#0070ff);color:white;box-shadow:0 7px 18px #009aff20}.activity-heading{display:flex;align-items:center;justify-content:space-between;margin:36px 8px 16px;height:44px}.activity-heading h2{font-size:37px;letter-spacing:-1px;margin:0}.activity-heading>span{font-size:25px;color:#747e9f}.browser-records{display:grid;gap:7px}.browser-records article{height:104px;border:1.5px solid #d9edf9;border-radius:25px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:14px 15px 14px 29px}.browser-records h3{font-size:29px;font-weight:600;letter-spacing:-.8px;margin:0 0 7px}.browser-records p{font-size:24px;color:#7c85a4;margin:0}.record-status{padding:17px 26px;border-radius:40px;font-size:27px;font-weight:600;letter-spacing:-.6px}.danger{background:#fff2f4;color:#ff445a}.warning{background:#fff8e9;color:#b96700}.blocked{background:#eef5ff;color:#0065ff}.browser-nav{position:absolute;bottom:0;left:0;width:853px;height:167px;background:linear-gradient(115deg,#fff,#fbfdff);border:1.5px solid #d9edf9;border-bottom:0;border-radius:52px 52px 0 0;display:flex;justify-content:space-around;padding:8px 10px 36px}.browser-nav a{width:178px;display:flex;flex-direction:column;align-items:center;gap:7px;padding-top:12px;font-size:26px;color:#777e9b;border-radius:36px;letter-spacing:-.6px}.browser-nav a[aria-current]{background:linear-gradient(120deg,#effaff,#e4f5fd);color:#006cff}.browser-nav img{width:58px;height:57px;object-fit:contain}.browser-indicator{position:absolute;bottom:20px;left:273px;width:306px;height:11px;background:#141a3a;border-radius:10px}.browser-empty{padding:35px;text-align:center}
+
+
+.calendar-legend .legend-warning i{background:#ffb33b}
+.day.has-warning{background:conic-gradient(#0094ff 95deg,#ffb33b 95deg 130deg,#e4f5ff 130deg)}
+
+/* Keep the address field fixed; calendar and records share one scroll area. */
+.browser-scroll{top:363px;bottom:167px;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;border-radius:58px 58px 0 0;background:linear-gradient(120deg,#0cb9ed,#009dff)}
+.browser-canvas{min-height:0;background:none}
+.browser-main{top:0;min-height:0;padding-bottom:42px}
+.activity-heading{margin-top:48px;margin-bottom:26px;height:50px}
+.activity-heading h2{font-size:40px}.activity-heading>span{font-size:27px}
+.browser-records{max-height:none;overflow:visible;gap:20px;grid-auto-rows:auto}
+.browser-records article{height:auto;min-height:144px;padding:26px 24px 26px 30px;gap:20px;border-radius:29px}
+.browser-records article>div{min-width:0;flex:1}
+.browser-records h3{font-size:34px;line-height:1.25;letter-spacing:-.8px;margin-bottom:12px}
+.browser-records p{font-size:28px;line-height:1.3}
+.record-status{flex-shrink:0;font-size:29px;padding:18px 24px}
+/* Preserve the original blue-to-white rounded transition while content scrolls. */
+.screen-browser{background:linear-gradient(120deg,#0cb9ed,#009dff) no-repeat #fff;background-size:100% 430px}
+.browser-scroll{background:radial-gradient(ellipse at center,#fff 50%,#f7fcff);isolation:isolate}
+.browser-main{border-radius:0;background:transparent}
+/* Match the shared navigation used by Home, Vault and You. */
+.screen-browser .browser-nav{height:181px;padding:8px 10px 36px;border-radius:52px 52px 0 0}
+.screen-browser .browser-nav a{height:128px;padding:0 0 10px;gap:0;font-size:27px;line-height:32px}
+.screen-browser .browser-nav img{top:12px;width:65px;height:70px}
+.screen-browser .browser-indicator{bottom:22px}
+.screen-browser .browser-scroll{bottom:181px}
+
+.browser-settings-background{position:absolute;left:726px;top:100px;width:95px;height:97px;background-image:url('assets/browser-header.png');background-size:853px 363px;background-position:-620px -100px;pointer-events:none}
+.browser-settings-background{left:710px;top:84px;width:127px;height:129px;background-position:-604px -84px;mask-image:linear-gradient(to right,transparent,#000 14px,#000 calc(100% - 14px),transparent),linear-gradient(to bottom,transparent,#000 14px,#000 calc(100% - 14px),transparent);mask-composite:intersect}
+
+
+/* Date, week, and month selectors share the original segmented rings. */
+.weekdays[hidden]{display:none}
+.calendar-days .day{border:0;background:var(--record-ring,#e4f5ff);color:#0b103c}
+.calendar-days .day span,.calendar-days .day:not(.has-activity) span{background:#fff}
+.calendar-days .day.selected{box-shadow:0 8px 17px #008aff20;color:#fff;font-weight:600}
+.calendar-days .day.selected span,.calendar-days .day.selected:not(.has-activity) span{background:linear-gradient(145deg,#00bbf3,#0060ff);color:#fff}
+.calendar-days .day.muted{opacity:.4}
+.calendar[data-period="week"] .calendar-days{grid-template-columns:repeat(3,1fr);gap:26px 18px;padding:12px 0 24px}
+.calendar[data-period="month"] .calendar-days{grid-template-columns:repeat(4,1fr);gap:26px 18px;padding:12px 0 24px}
+.calendar[data-period="week"] .day{width:124px;height:124px;font-size:25px;line-height:1.3}
+.calendar[data-period="week"] .day span{width:115px;height:115px;display:flex;align-items:center;justify-content:center;flex-direction:column}
+.calendar[data-period="month"] .day{width:105px;height:105px;font-size:28px}
+.calendar[data-period="month"] .day span{width:96px;height:96px}
