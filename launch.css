@@ -1,0 +1,11 @@
+.sentry-launch{position:absolute;inset:0;z-index:100;overflow:hidden;display:grid;place-items:center;background:radial-gradient(ellipse at 100% 0%,#39eee9 0%,transparent 60%),linear-gradient(155deg,#008aff 0%,#0055ff 55%,#1014cf 100%);animation:launch-exit .65s ease 3s forwards}
+.sentry-launch-mark{width:64%;aspect-ratio:1;position:relative}
+.sentry-launch-art{display:block;width:100%;height:100%;overflow:visible}
+.sentry-launch-flat{animation:launch-flat-out 1s ease 1.55s forwards}
+.sentry-launch-stroke{stroke-dasharray:1;stroke-dashoffset:1;animation:launch-draw 1.65s cubic-bezier(.4,0,.2,1) .1s forwards}
+.sentry-launch-solid{object-fit:contain;opacity:0;animation:launch-solid-in 1.1s cubic-bezier(.4,0,.2,1) 1.5s forwards}
+@keyframes launch-draw{to{stroke-dashoffset:0}}
+@keyframes launch-flat-out{to{opacity:0}}
+@keyframes launch-solid-in{to{opacity:1}}
+@keyframes launch-exit{to{opacity:0;visibility:hidden}}
+@media(prefers-reduced-motion:reduce){.sentry-launch{animation:launch-exit .2s ease .5s forwards}.sentry-launch-flat{display:none}.sentry-launch-solid{animation:none;opacity:1}}
